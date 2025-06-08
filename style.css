@@ -1,0 +1,47 @@
+#btncountainer{
+    padding: 10px 20px;
+    text-align:center;
+
+}
+#count2{
+    display: block;
+    text-align: center;
+    font-size: 11em;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.buttons{
+    padding: 10px 20px;
+    color:white;
+    background-color: rgb(114, 114, 213);
+    cursor:pointer;
+    border-radius: 5pc;
+}
+.buttons:hover{
+    background-color: rgb(10, 102, 28);
+    
+}
+body{
+    background-color: burlywood;
+}
+table{
+    background-color: aqua;
+}
+.top-line {
+    height: 25px;              
+    background-color: #34db7f;
+    width: 100%;             
+    position: fixed;         
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.buttom-line{
+    height: 25px;
+    background-color: #34db7f;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
